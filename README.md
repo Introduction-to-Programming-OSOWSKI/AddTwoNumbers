@@ -1,14 +1,17 @@
-# **Assignment Title**
+# **Add Two Numbers**
 
 ## **Assignment Description**
-
+Create a method named addTwoNumbers that returns the sum of two numbers.
 
 ## **Example**
->
+addTwoNumbers(5,3);  
+>8  
 
 ## **Limitations**
+N/A
 
 ## **Hints**
+You method should require two parameters, one for each number to add. 
 
 ---
 

@@ -16,7 +16,7 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(55+23, App.addTwoNumbers(55, 23), "THE TWO NUMBERS DID NOT ADD CORRECTLY");
    }
 
 }
