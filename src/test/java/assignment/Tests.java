@@ -17,7 +17,9 @@ public class Tests {
    @Test
    public void code(){
        App.main(null);
-       assertEquals(55+23, App.addTwoNumbers(55, 23), "THE TWO NUMBERS DID NOT ADD CORRECTLY");
+       assertEquals(78, App.addTwoNumbers(55, 23), "THE TWO NUMBERS DID NOT ADD CORRECTLY");
+       assertEquals(25, App.addTwoNumbers(2, 23), "THE TWO NUMBERS DID NOT ADD CORRECTLY");
+       assertEquals(21, App.addTwoNumbers(10, 11), "THE TWO NUMBERS DID NOT ADD CORRECTLY");
    }
 
    @Test
